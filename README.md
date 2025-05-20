@@ -32,3 +32,6 @@ All commands are run from the root of the project, from a terminal:
 git clone https://github.com/IzziVanSatoru/Astro-Jauza-Blog.git
 
 cd Astro-Jauza-Blog
+
+## distributor
+by izzi van satoru Aka. Jong
