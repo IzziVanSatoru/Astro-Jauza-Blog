@@ -2,7 +2,7 @@
 title: 'my wife'
 description: 'Vestia zeta Holo id gen 3'
 pubDate: 'Jul 08 2022'
-heroImage: '/public/vestia zeta main Balatro.jpg'
+heroImage: '/src/assets/vestia zeta main Balatro.jpg'
 ---
 ## Why vestia zeta my wife balatro
 

@@ -2,7 +2,7 @@
 title: 'I want zeta being Teacher'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jul 15 2022'
-heroImage: '/public/teacher vestia zeta.jpg'
+heroImage: '/src/assets/teacher vestia zeta.jpg'
 ---
 It began with a whisper. A low, digital hum from the speaker as the classroom lights dimmed and her heels clicked with divine rhythm upon the cold tiles. Vestia Zeta, clad in a black uniform tighter than my self-control, entered the room—not as a teacher, but as a celestial tyrant of intellect and beauty. She didn’t walk. She commanded the atmosphere. Every molecule in the room shifted to accommodate her presence, as though reality itself refused to obstruct her path.
 

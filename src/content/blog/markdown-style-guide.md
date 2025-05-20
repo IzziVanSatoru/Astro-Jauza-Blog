@@ -2,7 +2,7 @@
 title: 'Game Mside'
 description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
 pubDate: 'Jun 19 2024'
-heroImage: '/public/blog-placeholder-1.png'
+heroImage: '/src/assets/blog-placeholder-1.png'
 ---
 
 Here is a game best for romance if have not grilfriend.
