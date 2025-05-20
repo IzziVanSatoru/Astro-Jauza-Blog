@@ -1,0 +1,50 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main style="padding: 2rem; font-family: sans-serif;">
+      <h1>🧑‍🚀 Hello, is My blog!</h1>
+      <p>
+       welcome to my little corner of the internet! I'm Izzi 
+	   Van Satoru, a book-loving freaky writer who's deeply obsessed with a certain VTuber cat. This blog is where I share my thoughts, stories, and
+	    everything in between. Whether you're here for the latest updates or just to hang out, I'm glad you're here!
+		and is my blog, a place where I share my thoughts, stories, and everything in between. 
+		Whether you're here for the latest updates or just to hang out, I'm glad you're here!
+      </p>
+
+      <!-- GILA KEREN BUTTON -->
+      <div style="margin-top: 2rem; text-align: center;">
+        <a
+          href="/blog"
+          style="
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(45deg, #ff00cc, #3333ff);
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 1rem;
+            transition: all 0.3s ease;
+            transform: rotate(-2deg);
+          "
+          onmouseover="this.style.transform='scale(1.1) rotate(2deg)'; this.style.background='linear-gradient(45deg, #00ffff, #ff00cc)';"
+          onmouseout="this.style.transform='rotate(-2deg)'; this.style.background='linear-gradient(45deg, #ff00cc, #3333ff)';"
+        >
+          🚀 Take Me to Blog!
+        </a>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
