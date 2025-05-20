@@ -24,11 +24,17 @@ Thumbs.db
 # IDE settings
 .idea/
 
-# Ignore all images except those in the public/ folder
+# Ignore image files everywhere...
 *.png
 *.jpg
 *.jpeg
 *.gif
 *.webp
 *.svg
+
+# ...except in src/assets/ and public/
+!src/assets/**
 !public/**
+# Ignore all other files in src/assets/ and public/
+src/assets/*
+public/*
