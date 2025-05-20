@@ -33,8 +33,15 @@ Thumbs.db
 *.svg
 
 # ...except in src/assets/ and public/
-!src/assets/**
-!public/**
-# Ignore all other files in src/assets/ and public/
-src/assets/*
-public/*
+!src/assets/**/*.png
+!src/assets/**/*.jpg
+!src/assets/**/*.jpeg
+!src/assets/**/*.gif
+!src/assets/**/*.webp
+!src/assets/**/*.svg
+# Ignore all .astro files
+*.astro
+# ...except in src/pages/
+!src/pages/**/*.astro
+# Ignore all .md files
+*.md
